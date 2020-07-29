@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corona-tæller</title>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAumZMQPl6OPXXdkYZUv5kUmtB8_5SlRLo",
+            authDomain: "corona-counter-936c1.firebaseapp.com",
+            databaseURL: "https://corona-counter-936c1.firebaseio.com",
+            projectId: "corona-counter-936c1",
+            storageBucket: "corona-counter-936c1.appspot.com",
+            messagingSenderId: "495176395756",
+            appId: "1:495176395756:web:a2687e6fc9bd83268eeec9"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h2>Corona-tæller</h2>
+        </header>
+        <p class="currentCount">0</p>
+        <div class="btnContainer">
+            <button class="addOne">Tilføj én</button>
+            <button class="subOne">Fjern én</button>
+        </div>
+    </div>
+    <script src="taeller.js"></script>
+</body>
+
+</html>

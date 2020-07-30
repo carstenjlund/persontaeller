@@ -6,13 +6,22 @@ body {
     margin: 0;
 }
 .wrapper {
+    box-sizing: border-box;
+    padding: 2em 0; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: azure;
     color: slategray
+}
+.center {
+    justify-content: center;
+}
+
+h1, h2, p {
+    margin: 0;
 }
 
 h1 {

@@ -39,6 +39,7 @@ h2 {
 .currentCount {
     font-size: 10em;
     font-weight: 300;
+    margin-bottom: 0.2em;
 }  
 
 button {

@@ -42,10 +42,13 @@ h2 {
 }  
 
 button {
-    padding: 1em 3em;
-    margin: 1em;
+    padding: 1em 1.5em;
+    margin: 0.75em;
     border: none;
     border-radius: 0.5em;
+    font-size: 20px;
+    font-weight: 700;
+    color: whitesmoke;
 }
 
 .addOne {
